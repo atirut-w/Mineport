@@ -1,0 +1,3 @@
+[submodule "autocompletions"]
+	path = autocompletions
+	url = https://github.com/atirut-w/minetest-autocompletions
