@@ -10,10 +10,7 @@ end
 
 do
     local modpath = mineport.get_current_modpath()
-    dofile(modpath .. "/callbacks.lua")
-end
 
-minetest.register_node(":mineport:stone", {
-    tiles = {"mineport_stone.png"},
-})
-minetest.register_alias("mapgen_stone", "mineport:stone")
+    dofile(modpath .. "/callbacks.lua")
+    dofile(modpath .. "/nodes.lua")
+end
